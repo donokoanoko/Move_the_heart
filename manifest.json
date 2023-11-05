@@ -1,12 +1,12 @@
 {
 	"name" : "Move the heart 一二三<3",
 	"description" : "YouTubeのリアクション機能の位置をズラす",
-	"version" : "1.0.0",
+	"version" : "1.1.0",
 	"manifest_version" : 3,
 
 	"content_scripts" : [
 		{
-			"matches" : ["*://www.youtube.com/**"],
+			"matches" : ["*://www.youtube.com/**", "*://studio.youtube.com/**"],
 			"css" : [
 				"move_heart.css"
 			]
