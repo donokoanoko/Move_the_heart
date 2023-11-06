@@ -1,5 +1,5 @@
 #reaction-control-panel.yt-reaction-control-panel-overlay-view-model {
-	pointer-events: auto;
-	position: relative;
-	top: -100px;
+	position: absolute;
+	top: 35px;
+	rifht: 0px;
 }
