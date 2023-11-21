@@ -13,7 +13,7 @@
 			const heart = document.getElementById("chatframe").contentWindow.document.getElementById("reaction-control-panel");
 			heart.style.position = "absolute";
 			heart.style.top = "35px";
-			heart.style.rifht = "0px";
+			heart.style.right = "0px";
 		}
 		else if (document.getElementById("chatframe") !== null && document.getElementById("chatframe").contentWindow.document.getElementById('label-text') !== null && archive_message.includes(document.getElementById("chatframe").contentWindow.document.getElementById('label-text').textContent)) {
 			//Archive
