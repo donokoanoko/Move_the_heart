@@ -1,4 +1,4 @@
-![image](https://github.com/donokoanoko/Move_the_heart/assets/46491591/b0274281-7a54-490f-948c-b4b069e4cac7)# Move_the_heart
+# Move_the_heart
 ## 機能
 YouTubeのリアクション機能のボタン(❤)の位置を邪魔にならない位置へズラす、Google chrome用の拡張機能です。<br>
 ズラすのはあくまでボタンの位置だけなので、送られてきたリアクションの位置はそのままです。<br>
