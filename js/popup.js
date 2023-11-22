@@ -75,7 +75,6 @@ document.getElementById("display").addEventListener("click", () => {
 });
 
 document.getElementById("position_x").addEventListener("input", (position) => {
-    console.log("move_x");
     setting.position.x = position.target.value;
 
     move_heart(setting);
