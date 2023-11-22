@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script src="js/popup.js" defer></script>
+</head>
+<body>
+
+    <h1><span id="heart">♥</span>ボタン設定</h1>
+
+    <h2>表示設定</h2>
+    <div class="display_area"><p id="display_status"></p></div>
+    <div id="display_button" class="display_area">
+        <input id="display" class="display_input" type="checkbox"/>
+        <label for="display" class="display_label" />
+    </div>
+
+    <h2 class="move">ポジション</h2>
+    <form action="#" method="post" class="move">
+        <p>
+            <span class="position_area">縦:<input type="number" id="position_y" tabindex="1">px, </span>
+            <span class="position_area">横:<input type="number" id="position_x" tabindex="2">px</span>
+        </p>
+    </form>
+
+    <h2 class="move">不透明度</h2>
+    <input type="range" id="transparency" class="move" min="0" max="100" step="1" tabindex="3"><pre id="transparency_display" class="move"></pre>
+
+    <button type="button" id="save" tabindex="4">保存</button>
+</body>
+</html>
